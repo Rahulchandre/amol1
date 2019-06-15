@@ -218,6 +218,11 @@ include('db.php');
                   <td><?php echo $row['worden_contact']; ?></td>
                   <td><?php echo $row['worden_name']; ?></td>
                   <td><?php echo $row['worden_address']; ?></td>
+                 
+                  <td><?php echo $row['worden_name1']; ?></td>
+                  <td><?php echo $row['worden_address1']; ?></td>
+                 
+                 
                  <td><a href="edit_hostel.php?edit=<?php echo $row["id"]; ?>"
               class="fa fa-edit edit"><u></u></a>&nbsp;&nbsp;
 
